@@ -1,0 +1,116 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, transparent, #009688);
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+
+}
+
+.signup-box {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.col-1,
+.col-2 {
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+.col-1 img {
+    width: 100%;
+    display: block;
+
+}
+
+.col-2 {
+    background: #fff;
+    padding: 40px 8%;
+    color: #333;
+    min-width: 250px;
+}
+
+.col-2 h2 {
+    font-weight: 600;
+}
+
+.col-2 span {
+    font-size: 12px;
+}
+
+.col-2 span a {
+    text-decoration: none;
+    color: #ef005d;
+    font-weight: 500;
+}
+
+.googlelink {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid #ef005d;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #555;
+    margin: 20px 0;
+}
+
+.googlelink img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.col-2 h4 {
+    margin-bottom: 10px;
+    /* align-items: center; */
+    text-align: center;
+    font-weight: 400;
+}
+
+.input-f {
+    padding: 10px;
+    border: 2px solid #ef005d;
+    border-radius: 4px;
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 5px 0 10px;
+}
+form label{
+    font-weight:500;
+    font-size: 12px;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.row input{
+    margin-right: 6px;
+}
+.col-2 form button{
+    padding: 10px;
+    border: 2px solid #ef005d;
+    border-radius: 4px;
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 18px 0 10px;
+    background: #ef005d;
+    color: #fff;
+    cursor: pointer;
+}
